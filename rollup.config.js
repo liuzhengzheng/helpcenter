@@ -71,12 +71,12 @@ const config = {
       compilerOptions: {
         // enable run-time checks when not in production
         dev: !production,
-        customElement: true,
+        customElement: !!production,
       },
     }),
     // we'll extract any component CSS out into
     // a separate file - better for performance
-    css({ output: "bundle.css" }),
+    css({ output: "index.css" }),
 
     // If you have external dependencies installed from
     // npm, you'll most likely need these plugins. In

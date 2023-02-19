@@ -1,6 +1,6 @@
 {
   "name": "helpcenter-modal",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
